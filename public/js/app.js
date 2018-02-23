@@ -87,7 +87,8 @@
 					// 		new google.maps.Size(43, 53, "px", "px")
 					// 	)
 					// }
-				}
+				},
+				key: 'AIzaSyDd_4NwxPQ0mqPniLkQC7rk1So7jVJm_vY',
 			},
 			"autofit" );
 	    }
