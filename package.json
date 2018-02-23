@@ -1,0 +1,19 @@
+{
+  "name": "edaa",
+  "version": "1.0.0",
+  "description": "servidor para o site portfolio Edson Daniel Advogados Associados",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [
+    "EDAA",
+    "advocacia",
+    "Portfolio"
+  ],
+  "author": "Wesley Azevedo",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.3"
+  }
+}
