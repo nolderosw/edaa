@@ -1,6 +1,6 @@
-Cafe com amor
+EDAA
 
-"Repositório para o portfolio da empresa Café Com Amor"
+"Repositório para o portfolio da empresa EDAA"
 
 Tecnologias: Node.js, Express.js, bootstrap, html5, css3.
  
