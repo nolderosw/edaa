@@ -1,5 +1,6 @@
 ;(function () {
 	
+	
 	'use strict';
 
 	var isMobile = {
@@ -44,7 +45,6 @@
 		});
 
 	};
-
 	
 
 	var header = function() {

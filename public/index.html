@@ -1,260 +1,415 @@
-<!DOCTYPE html>
-<html lang="pt-br">
+<!DOCTYPE HTML>
+<!--
+	Justice by freehtml5.co
+	Twitter: http://twitter.com/fh5co
+	URL: http://freehtml5.co
+-->
+<html>
 
 <head>
-	<meta charset="UTF-8">
+	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1">
-
 	<title>Edson Daniel Advogados Associados</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Free HTML5 Website Template by FreeHTML5.co" />
+	<meta name="keywords" content="free website templates, free html5, free template, free bootstrap, free website template, html5, css3, mobile first, responsive"
+	/>
+	<meta name="author" content="FreeHTML5.co" />
 
-	<!-- Loading third party fonts -->
-	<link href="fonts/font-awesome.min.css" rel="stylesheet" type="text/css">
-	<link href="fonts/novecento-font/novecento-font.css" rel="stylesheet">
+	<!-- Facebook and Twitter integration -->
+	<meta property="og:title" content="" />
+	<meta property="og:image" content="" />
+	<meta property="og:url" content="" />
+	<meta property="og:site_name" content="" />
+	<meta property="og:description" content="" />
+	<meta name="twitter:title" content="" />
+	<meta name="twitter:image" content="" />
+	<meta name="twitter:url" content="" />
+	<meta name="twitter:card" content="" />
+
+	<!-- <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400, 900" rel="stylesheet"> -->
+
+	<!-- Animate.css -->
+	<link rel="stylesheet" href="css/animate.css">
+	<!-- Icomoon Icon Fonts-->
+	<link rel="stylesheet" href="css/icomoon.css">
+	<!-- Themify Icons-->
+	<link rel="stylesheet" href="css/themify-icons.css">
+	<!-- Bootstrap  -->
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<!-- Magnific Popup -->
+	<link rel="stylesheet" href="css/magnific-popup.css">
+	<!-- Owl Carousel  -->
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/owl.theme.default.min.css">
+	<!-- Flexslider -->
+	<link rel="stylesheet" href="css/flexslider.css">
+	<!-- Theme style  -->
+	<link rel="stylesheet" href="css/style.css">
+
 	<link rel="shortcut icon" href="favicon.ico" />
 
-	<!-- Loading main css file -->
-	<link href="css/style.css" rel="stylesheet">
-
+	<!-- Modernizr JS -->
+	<script src="js/modernizr-2.6.2.min.js"></script>
+	<!-- FOR IE9 below -->
 	<!--[if lt IE 9]>
-		<script src="js/ie-support/html5.js"></script>
-		<script src="js/ie-support/respond.js"></script>
-		<![endif]-->
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
 
 </head>
 
-
 <body>
-	<div id="site-content">
 
-		<header class="site-header">
+	<div class="gtco-loader"></div>
+
+	<div id="page">
+		<nav class="gtco-nav" role="navigation">
 			<div class="container">
-				<a href="index.html" id="branding">
-					<img height="55px" width="90px" src="images/logo.jpg" alt="EDAA" class="logo">
-
-					<div class="branding-copy">
-						<h1 class="site-title">Edson Daniel Advogados Associados</h1>
-						<small class="site-description"> Escritório com sede em Campina Grande, PB</small>
-						<small class="site-description"> 83 3322-3887</small>
-
+				<div class="row">
+					<div class="col-sm-2 col-xs-12">
+						<div id="gtco-logo">
+							<a href="index.html">EDAA</a>
+						</div>
 					</div>
-				</a>
-				<nav class="main-navigation">
-					<button type="button" class="menu-toggle">
-						<i class="fa fa-bars"></i>
-					</button>
-					<ul class="menu">
-						<li class="menu-item current-menu-item">
-							<a href="index.html">Início</a>
-						</li>
-						<li class="menu-item">
-							<a href="about.html">Sobre a Empresa</a>
-						</li>
-						<li class="menu-item">
-							<a href="service.html">Serviços</a>
-						</li>
-						<li class="menu-item">
-							<a href="contact.html">Contato</a>
-						</li>
-						<li class="menu-item">
-							<a target="_blank" href="http://www.sistema.edaa.com.br">Sistema</a>
-						</li>
-					</ul>
-				</nav>
-				<nav class="mobile-navigation"></nav>
-			</div>
-		</header>
-		<!-- .site-header -->
-
-		<main class="main-content">
-			<div class="hero">
-				<div class="container">
-					<div class="row">
-						<div class="col-md-8">
-							<figure>
-								<img style="margin-bottom:5%; margin-left:-5%;" src="images/justica.jpg" alt="">
-							</figure>
-						</div>
-						<div class="col-md-4">
-							<div style="margin-top: -6%;" class="hero-content">
-								<h1 class="hero-title">Edson Daniel Advogados Associados</h1>
-								<p>A Edson Daniel Advogados Associados, atua no mercado jurídico com foco nas áreas previdenciária e trabalhista. Prezando
-									sempre o respeito e o compromisso com nossos clientes.</p>
-								<a href="about.html" class="button">Saiba mais</a>
-							</div>
-						</div>
+					<div class="col-xs-10 text-right menu-1 main-nav">
+						<ul>
+							<li class="active">
+								<a href="#" data-nav-section="home">Início</a>
+							</li>
+							<li>
+								<a href="#" data-nav-section="about">Sobre</a>
+							</li>
+							<li>
+								<a href="#" data-nav-section="practice-areas">Serviços</a>
+							</li>
+							<li>
+								<a href="#" data-nav-section="our-team">Fundadores</a>
+							</li>
+							<li>
+								<a href="#" data-nav-section="contact">
+									<span>Contato</span>
+								</a>
+							</li>
+							<li class="btn-cta">
+								<a target="_blank" href="http://www.sistema.edaa.com.br" class="external">
+									<span>Sistema</span>
+								</a>
+							</li>
+							<!-- For external page link -->
+							<!-- <li><a href="http://freehtml5.co/" class="external">External</a></li> -->
+						</ul>
 					</div>
 				</div>
+
 			</div>
-			<!-- .hero-slider -->
-			<div class="fullwidth-block" data-bg-color="#111113">
-				<div class="container">
-					<div class="row feature-list-section">
-						<div class="feature-title-copy text-center">
-							<h1 class="feature-title">Áreas de Atuação</h1>
-						</div>
-						</br>
-						</br>
-						<div class="col-md-4">
-							<div class="feature">
-								<header>
-									<i style="font-size: 35px; margin-right: 3%;" class=" fa fa-wheelchair"></i>
-									<div class="feature-title-copy">
-										<h2 class="feature-title"> Direito Previdênciário</h2>
-									</div>
-								</header>
-								<p style="text-align: justify;">Na área do direito previdenciário, o escritório Edson Daniel Advogados Associados atua com excelência na busca pelos
-									benefícios previdenciários dos seus clientes que tiveram seus requerimentos administrativos indeferidos pelo INSS
-									(Regime Geral de Previdência Social) ou por órgãos pertencentes ao Regime Próprio de Previdência Social. Ademais,
-									são disponibilizados diversos tipos de serviços ao cidadão, tais como: análise da “vida previdenciária” para verificação
-									de requisitos para obtenção de benefícios; Defesas jurídicas em ações em que os órgãos de previdência demandam contra
-									os seus segurados; Regularização de situação junto à Previdência Social e outros.
+		</nav>
 
+		<section id="gtco-hero" class="gtco-cover" style="background-image: url(images/img_bg_4.jpg);" data-section="home" data-stellar-background-ratio="0.5">
+			<div class="overlay"></div>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12 col-md-offset-0 text-center">
+						<div class="display-t">
+							<div class="display-tc">
+								<h1 class="animate-box" data-animate-effect="fadeIn">Edson Daniel Advogados Associados</h1>
+								<p class="gtco-video-link animate-box" data-animate-effect="fadeIn">
+									<a href="video.mp4" class="popup-vimeo">
+										<i class="icon-controller-play"></i>
+									</a>
 								</p>
-							</div>
-						</div>
-						<div class="col-md-4">
-							<div class="feature">
-								<header>
-									<i style="font-size: 35px; margin-right: 3%;" class=" fa fa-briefcase"></i>
-									<div class="feature-title-copy">
-										<h2 class="feature-title">Direito do Trabalho</h2>
-									</div>
-								</header>
-								<p style="text-align: justify;">
-									O escritório Edson Daniel Advogados Associados disponibiliza para a população serviços de atendimento consultivo sobre toda
-									a legislação Trabalhista, tanto para o empregado como para o empregador. Outrossim, são oferecidos serviços consistentes
-									na propositura de Reclamações Trabalhistas pelo empregado e atuação em ações judiciais na representação das empresas,
-									envolvendo dissídios trabalhistas.
-
-								</p>
-							</div>
-						</div>
-						<div class="col-md-4">
-							<div class="feature">
-								<header>
-									<i style="font-size: 35px; margin-right: 3%;" class=" fa fa-users"></i>
-									<div class="feature-title-copy">
-										<h2 class="feature-title">Direito Civil</h2>
-									</div>
-								</header>
-								<p style="text-align: justify;">
-									Por razões diversas, às vezes é necessário o ingresso na via judicial para resolução de conflitos, seja por alguma relação
-									consumerista, familiar, sucessória (herança) ou qualquer outra área abarcada pelo Ramo do Direito Civil. Nesta seara,
-									o escritório Edson Daniel Advogados Associados atua de forma profissional na representação dos clientes, prezando
-									sempre pela ética e qualidade na prestação dos serviços.
-								</p>
-							</div>
-						</div>
-						<div style="margin-top: 35%; margin-left:38%">
-							<a href="service.html" class="button center-block text-center">Ver todas as áreas de atuação</a>
-						</div>
-					</div>
-				</div>
-			</div>
-
-			<div class="fullwidth-block">
-				<div class="container">
-					<div class="row">
-						<div class="feature-title-copy">
-							<h1 style="text-align: center;" class="feature-title">Depoimentos</h1>
-						</div>
-						</br>
-						<div class="quote-section">
-							<div class="quote-slider">
-								<ul class="slides">
+								<ul class="gtco-social-icons-home">
 									<li>
-										<figure class="quote-avatar">
-											<img style="width: 119px; height:119px; border-radius: 50%;" src="images/daniel.jpg">
-										</figure>
-										<blockquote>
-											<p>Sou grato a Deus pela oportunidade de ajudar pessoas através do EDAA, de modo que aqui me sinto útil à sociedade e me satisfaço no exercício da minha profissão, pois de acordo com Martin Luther King “a injustiça num lugar qualquer é uma ameaça à justiça em todo o lugar”.
-												</p>
-											<footer>
-												<cite>Edson Daniel</cite>
-												<span>(Advogado Associado)</span>
-											</footer>
-										</blockquote>
+										<a target="_blank" href="https://www.facebook.com/EdsonDanielAdvogadosAssociados/">
+											<i class="icon-facebook"></i>
+										</a>
 									</li>
 									<li>
-										<figure class="quote-avatar">
-											<img style="width: 119px; height:119px; border-radius: 50%;" src="images/yago.jpg">
-										</figure>
-										<blockquote>
-											<p>Excelente ambiente de trabalho!!! Grande time de advogados associados e colaboradores!</p>
-											<footer>
-												<cite>Yago Calado</cite>
-												<span>(Advogado Associado)</span>
-											</footer>
-										</blockquote>
-									</li>
-									<li>
-										<figure class="quote-avatar">
-											<img style="width: 119px; height:119px; border-radius: 50%;" src="images/windson.jpg">
-										</figure>
-										<blockquote>
-											<p>Muito feliz por fazer parte dessa "família"! Sucesso a todos!</p>
-											<footer>
-												<cite>Windson Pereira</cite>
-												<span>(Advogado Associado)</span>
-											</footer>
-										</blockquote>
-									</li>
-									<li>
-										<figure class="quote-avatar">
-											<img style="width: 119px; height:119px; border-radius: 50%;" src="images/rosimere.jpg">
-										</figure>
-										<blockquote>
-											<p>Empresa jurídica de grande sucesso!!! Parabéns a todos que fazem parte direta ou indiretamente.</p>
-											<footer>
-												<cite>Rosimere Ramos</cite>
-												<span>(Colaboradora)</span>
-											</footer>
-										</blockquote>
-									</li>
-									<li>
-										<figure class="quote-avatar">
-											<img style="width: 119px; height:119px; border-radius: 50%;" src="images/wesley.jpg">
-										</figure>
-										<blockquote>
-											<p>Excelente empresa do ramo jurídico! Profissionais extremamentes qualificados e capacitados!</p>
-											<footer>
-												<cite>Wesley Azevedo</cite>
-												<span>(Gerente de TI)</span>
-											</footer>
-										</blockquote>
+										<a target="_blank" href="https://www.instagram.com/edsondanieladvassociados/">
+											<i class="icon-instagram"></i>
+										</a>
 									</li>
 								</ul>
 							</div>
 						</div>
 					</div>
-					<!-- .row -->
 				</div>
-				<!-- .container -->
 			</div>
-			<!-- .fullwidth-block -->
+		</section>
 
-		</main>
-		<!-- .main-content -->
-
-		<footer class="site-footer">
-			<div class="copy">
-				<img height="55px" width="90px" src="images/logo.jpg" alt="EDAA" class="logo">
-				<p>2018 © Edson Daniel Advogados Associados</p>
+		<section id="gtco-about" data-section="about">
+			<div class="container">
+				<div class="row row-pb-md">
+					<div class="col-md-8 col-md-offset-2 heading animate-box" data-animate-effect="fadeIn">
+						<h1>SOBRE A EDAA</h1>
+						<p class="sub">A Edson Daniel Advogados Associados, atua no mercado jurídico com foco nas áreas previdenciária e trabalhista. Prezando
+							sempre o respeito e o compromisso com nossos clientes.Sediada em Campina Grande, PB, conta com uma unidade operacional
+							também na cidade de Sumé, é dotada de ótima estrutura e organizada nos moldes de excelência profissional dos mais
+							conceituados escritórios de advocacia do país. A atualização constante em sintonia com as tendências da moderna advocacia,
+							tem permitido a ampliação dos seus serviços, cada vez mais reconhecidos nos Tribunais e no mercado jurídico.</p>
+						<p class="subtle-text animate-box" data-animate-effect="fadeIn">Sobre</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-6 col-md-pull-1 animate-box" data-animate-effect="fadeInLeft">
+						<div class="img-shadow">
+							<img src="images/logo_maior.jpg" class="img-responsive">
+						</div>
+					</div>
+					<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+						<h2 class="heading-colored">MISSÃO</h2>
+						<p>Prestar serviços jurídicos com confiabilidade e profissionalismo, buscando realizar sonhos e ideais de nossos clientes,
+							através de advogados e colaboradores qualificados.</p>
+						<h2 class="heading-colored">VISÃO</h2>
+						<p>Ser o melhor escritório de advocacia do Brasil na prestação serviços jurídicos especializados em Direito Trabalhista
+							e Previdenciário e atuarmos em todos os Estados da Federação, visando o reconhecimento da sociedade.</p>
+						<h2 class="heading-colored">VALORES</h2>
+						<p>Reconhecimento da capacidade e da originalidade dos colaboradores com responsabilidade social, apoiados em princípios
+							de ética, honestidade, excelência, agilidade e espírito de que equipe.</p>
+					</div>
+				</div>
 			</div>
-			<a target="_blank" href="http://wesleyazevedo.herokuapp.com">
-				<img height="40px" width="40px" src="images/logo_wesley.png"></img>
-			</a>
-	</div>
-	</footer>
-	<!-- .site-footer -->
+		</section>
 
-	</div>
-	<!-- #site-content -->
-	<script src="js/jquery-1.11.1.min.js"></script>
-	<script src="js/plugins.js"></script>
-	<script src="js/app.js"></script>
+		<section id="gtco-practice-areas" data-section="practice-areas">
+			<div class="container">
+				<div class="row row-pb-md">
+					<div class="col-md-8 col-md-offset-2 heading animate-box" data-animate-effect="fadeIn">
+						<h1>ÁREAS DE ATUAÇÃO</h1>
+						<p class="sub">Somos especialistas nas mais diversas áreas do Direito.</p>
+						<p class="subtle-text animate-box" data-animate-effect="fadeIn">Serviços</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-6">
+						<div class="gtco-practice-area-item animate-box">
+							<div class="gtco-icon">
+								<img src="images/adm.png" height="43" width="43" alt="Free HTML5 Bootstrap Template by FreeHTML5.co">
+							</div>
+							<div class="gtco-copy">
+								<h3>Direito Administrativo</h3>
+								<p>O Edson Daniel Advogados Associados presta serviços no âmbito do direito administrativo, consistente na avaliação
+									de risco legal, negociação e elaboração de contratos administrativos, defesa legal em processos administrativos,
+									judiciais e atuação perante as agências reguladoras, impetração de remédios constitucionais para garantir direitos
+									dos administrados e etc.</p>
+							</div>
+						</div>
 
+						<div class="gtco-practice-area-item animate-box">
+							<div class="gtco-icon">
+								<img src="images/job.png" height="43" width="43" alt="Free HTML5 Bootstrap Template by FreeHTML5.co">
+							</div>
+							<div class="gtco-copy">
+								<h3>Direito do trabalho</h3>
+								<p>O escritório Edson Daniel Advogados Associados disponibiliza para a população serviços de atendimento consultivo
+									sobre toda a legislação Trabalhista, tanto para o empregado como para o empregador. Outrossim, são oferecidos serviços
+									consistentes na propositura de Reclamações Trabalhistas pelo empregado e atuação em ações judiciais na representação
+									das empresas, envolvendo dissídios trabalhistas.</p>
+							</div>
+						</div>
+
+						<div class="gtco-practice-area-item animate-box">
+							<div class="gtco-icon">
+								<img src="images/civil.png" height="43" width="43" alt="Free HTML5 Bootstrap Template by FreeHTML5.co">
+							</div>
+							<div class="gtco-copy">
+								<h3>Direito Civil</h3>
+								<p>O escritório Edson Daniel Advogados Associados disponibiliza para a população serviços de atendimento consultivo
+									sobre toda a legislação Trabalhista, tanto para o empregado como para o empregador. Outrossim, são oferecidos serviços
+									consistentes na propositura de Reclamações Trabalhistas pelo empregado e atuação em as ações judiciais na representação
+									das empresas, envolvendo dissídios trabalhistas.</p>
+							</div>
+						</div>
+
+					</div>
+					<div class="col-md-6">
+
+						<div class="gtco-practice-area-item animate-box">
+							<div class="gtco-icon">
+								<img src="images/prev.png" height="43" width="43" alt="Free HTML5 Bootstrap Template by FreeHTML5.co">
+							</div>
+							<div class="gtco-copy">
+								<h3>Direito Previdenciário</h3>
+								<p>Na área do direito previdenciário, o escritório Edson Daniel Advogados Associados atua com excelência na busca pelos
+									benefícios previdenciários dos seus clientes que tiveram seus requerimentos administrativos indeferidos pelo INSS
+									(Regime Geral de Previdência Social) ou por órgãos pertencentes ao Regime Próprio de Previdência Social. Ademais,
+									são disponibilizados diversos tipos de serviços ao cidadão, tais como: análise da “vida previdenciária” para verificação
+									de requisitos para obtenção de benefícios; Defesas jurídicas em ações em que os órgãos de previdência demandam contra
+									os seus segurados; Regularização de situação junto à Previdência Social e outros.</p>
+							</div>
+						</div>
+
+						<div class="gtco-practice-area-item animate-box">
+							<div class="gtco-icon">
+								<img src="images/trib.png" width="43" height="43" alt="Free HTML5 Bootstrap Template by FreeHTML5.co">
+							</div>
+							<div class="gtco-copy">
+								<h3>Direito Tributário</h3>
+								<p>Em face do atual cenário de crise no país, é comum o fisco exacerbar em sua atuação, demandando dos seus contribuintes
+									impostos indevidos ou, quando devidos, em valores superiores àqueles permitidos pela legislação Tributária. É exatamente
+									por isso que o Edson Daniel Advogados Associados atua na representação dos seus clientes perante o fisco (municipal,
+									estadual e federal) em ações e defesas administrativas ou judiciais, para ressarcimento/anulação/regularização de
+									demandas fiscais, seja para pessoa física ou jurídica. No âmbito das empresas, o escritório disponibiliza atendimento
+									diferenciado, que além do exposto abarca estratégias de diminuição do passivo tributário, sempre prezando pela ética
+									e legalidade.</p>
+							</div>
+						</div>
+
+						<div class="gtco-practice-area-item animate-box">
+							<div class="gtco-icon">
+								<img src="images/emp.png" height="43" width="43" alt="Free HTML5 Bootstrap Template by FreeHTML5.co">
+							</div>
+							<div class="gtco-copy">
+								<h3>Direito Empresarial</h3>
+								<p>Para o empresário que prefere atuar de maneira segura o Edson Daniel Advogados Associados possui serviço de advocacia
+									de partido, consistente na atuação em todas as áreas que a empresa necessitar mediante contrato fixo mensal, dando
+									assim maior controle orçamentário para o empresário e segurança em suas transações. Além disso, o escritório oferece
+									serviços nas áreas de execução de título extrajudicial, cobrança extrajudicial e outros que se fizerem necessários.</p>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="gtco-our-team" data-section="our-team">
+			<div class="container">
+				<div class="row row-pb-md">
+					<div class="col-md-8 col-md-offset-2 heading animate-box" data-animate-effect="fadeIn">
+						<h1>Fundadores</h1>
+						<p class="sub">Os responsáveis por fundar a Edson Daniel Advogados Associados (EDAA).</p>
+						<p class="subtle-text animate-box" data-animate-effect="fadeIn">Fundadores</p>
+					</div>
+				</div>
+				<div class="row team-item gtco-team-reverse">
+					<div class="col-md-6 col-md-push-7 animate-box" data-animate-effect="fadeInRight">
+						<div class="img-shadow">
+							<img src="images/ed.jpg" class="img-responsive" alt="Free HTML5 Bootstrap Template by FreeHTML5.co">
+						</div>
+					</div>
+					<div class="col-md-6  col-md-pull-6 animate-box" data-animate-effect="fadeInRight">
+						<h2>Edson Daniel Ramos</h2>
+						<p></p>Advogado Previdenciarista/trabalhista, Administrador, Radialista, pósGraduado em Direito Previdenciário.
+					</div>
+				</div>
+
+				<div class="row team-item gtco-team">
+					<div class="col-md-6 col-md-pull-1 animate-box" data-animate-effect="fadeInLeft">
+						<div class="img-shadow">
+							<img src="images/d.jpg" class="img-responsive" alt="Free HTML5 Bootstrap Template by FreeHTML5.co">
+						</div>
+					</div>
+					<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+						<h2>Edson Daniel Ramos Filho</h2>
+						<p> daniel...</p>
+					</div>
+				</div>
+
+			</div>
+		</section>
+
+		<section id="gtco-contact" data-section="contact">
+			<div class="container">
+				<div class="row row-pb-md">
+					<div class="col-md-8 col-md-offset-2 heading animate-box" data-animate-effect="fadeIn">
+						<h1>Contato</h1>
+						<p class="sub">Estamos sempre prontos para te atender.</p>
+						<p class="subtle-text animate-box" data-animate-effect="fadeIn">Contato</p>
+					</div>
+				</div>
+				<div class="row">
+					<!--
+					<div class="col-md-6 col-md-push-6 animate-box">
+						<div id="map">mapa</div>
+					</div> 
+					<div class="col-md-6 col-md-pull-6 animate-box">
+						<div class="gtco-contact-info">
+							<ul>
+								<li class="address">Rua Manoel Leonardo Gomes, 285, Liberdade, Campina Grande - PB CEP: 58415-320 (Segunda-feira à Sexta-Feira: 8h as
+									12h, 13h30 às 17h30)</li>
+								<li class="phone">(83) 3322-3887</li>
+								<li class="email">
+									<a href="mailto:edsondaniel.edaa@gmail.com">edsondaniel.edaa@gmail.com</a>
+								</li>
+								<li class="url">
+									<a href="#">http://www.edaa.com.br</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					-->
+					<div class="col-md-12 animate-box">
+						<div class="gtco-contact-info">
+							<ul>
+								<li class="address">Rua Manoel Leonardo Gomes, 285, Liberdade, Campina Grande - PB CEP: 58415-320 (Segunda-feira à Sexta-Feira: 8h as
+									12h, 13h30 às 17h30)</li>
+								<li class="phone">(83) 3322-3887</li>
+								<li class="email">
+									<a href="mailto:edsondaniel.edaa@gmail.com">edsondaniel.edaa@gmail.com</a>
+								</li>
+								<li class="url">
+									<a href="#">http://www.edaa.com.br</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<footer id="gtco-footer" role="contentinfo">
+			<div class="container">
+
+				<div class="row copyright">
+					<div class="col-md-12">
+						<p class="pull-left">
+							<small class="block">&copy; 2018 Edson Daniel Advogados Associados</small>
+							<small class="block">Desenvolvido por:
+								<a target="_blank" href="http://wesleyazevedo.herokuapp.com" target="_blank">WA Desenvolvimento</a>
+							</small>
+						</p>
+						<p class="pull-right">
+							<ul class="gtco-social-icons pull-right">
+								<li>
+									<a target="_blank" href="https://www.facebook.com/EdsonDanielAdvogadosAssociados/">
+										<i class="icon-facebook"></i>
+									</a>
+								</li>
+								<li>
+									<a target="_blank" href="https://www.instagram.com/edsondanieladvassociados/">
+										<i class="icon-instagram"></i>
+									</a>
+								</li>
+							</ul>
+						</p>
+					</div>
+				</div>
+
+			</div>
+		</footer>
+	</div>
+
+	<div class="gototop js-top">
+		<a href="#" class="js-gotop">
+			<i class="icon-arrow-up"></i>
+		</a>
+	</div>
+
+	<!-- jQuery -->
+	<script src="js/jquery.min.js"></script>
+	<!-- jQuery Easing -->
+	<script src="js/jquery.easing.1.3.js"></script>
+	<!-- Bootstrap -->
+	<script src="js/bootstrap.min.js"></script>
+	<!-- Waypoints -->
+	<script src="js/jquery.waypoints.min.js"></script>
+	<!-- Stellar -->
+	<script src="js/jquery.stellar.min.js"></script>
+	<!-- Magnific Popup -->
+	<script src="js/jquery.magnific-popup.min.js"></script>
+	<script src="js/magnific-popup-options.js"></script>
+	<!-- Main -->
+	<script src="js/main.js"></script>
 </body>
 
 </html>
