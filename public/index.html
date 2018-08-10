@@ -44,24 +44,22 @@
 </head>
 
 <body>
-			<!-- Load Facebook SDK for JavaScript -->
-<div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = 'https://connect.facebook.net/pt_BR/sdk/xfbml.customerchat.js#xfbml=1&version=v2.12&autoLogAppEvents=1';
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
+	<!-- Load Facebook SDK for JavaScript -->
+	<div id="fb-root"></div>
+	<script>(function (d, s, id) {
+			var js, fjs = d.getElementsByTagName(s)[0];
+			if (d.getElementById(id)) return;
+			js = d.createElement(s); js.id = id;
+			js.src = 'https://connect.facebook.net/pt_BR/sdk/xfbml.customerchat.js#xfbml=1&version=v2.12&autoLogAppEvents=1';
+			fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));</script>
 
-<!-- Your customer chat code -->
-<div class="fb-customerchat"
-  attribution=setup_tool
-  page_id="1320884001264630"
-  theme_color="#d9534f"
-  logged_in_greeting="Olá, como podemos te ajudar?"
-  logged_out_greeting="Olá, como podemos te ajudar?">
-</div>
+	<!-- Your customer chat code -->
+	<div class="fb-customerchat" attribution=setup_tool page_id="1320884001264630" theme_color="#d9534f" logged_in_greeting="Olá, como podemos te ajudar?"
+	 logged_out_greeting="Olá, como podemos te ajudar?">
+	</div>
+
+
 	<div class="gtco-loader"></div>
 
 	<div id="page">
@@ -414,12 +412,12 @@
 			</div>
 		</footer>
 	</div>
-
+	<!--
 	<div class="gototop js-top">
 		<a href="#" class="js-gotop">
 			<i class="icon-arrow-up"></i>
 		</a>
-	</div>
+	</div> -->
 	<!-- jQuery -->
 	<script src="js/jquery.min.js"></script>
 	<!-- jQuery Easing -->
