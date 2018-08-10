@@ -44,7 +44,24 @@
 </head>
 
 <body>
+			<!-- Load Facebook SDK for JavaScript -->
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = 'https://connect.facebook.net/pt_BR/sdk/xfbml.customerchat.js#xfbml=1&version=v2.12&autoLogAppEvents=1';
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 
+<!-- Your customer chat code -->
+<div class="fb-customerchat"
+  attribution=setup_tool
+  page_id="1320884001264630"
+  theme_color="#d9534f"
+  logged_in_greeting="Olá, como podemos te ajudar?"
+  logged_out_greeting="Olá, como podemos te ajudar?">
+</div>
 	<div class="gtco-loader"></div>
 
 	<div id="page">
@@ -350,8 +367,12 @@
 								<li class="email">
 									<a href="mailto:edsondaniel.edaa@gmail.com">edsondaniel.edaa@gmail.com</a>
 								</li>
-								<li class="url"><a target="_blank" href="https://www.facebook.com/EdsonDanielAdvogadosAssociados/">Facebook</a></li>
-								<li class="url"><a target="_blank" href="https://www.instagram.com/edsondanieladvassociados/">Instagram</a></li>
+								<li class="url">
+									<a target="_blank" href="https://www.facebook.com/EdsonDanielAdvogadosAssociados/">Facebook</a>
+								</li>
+								<li class="url">
+									<a target="_blank" href="https://www.instagram.com/edsondanieladvassociados/">Instagram</a>
+								</li>
 								<li class="url">
 									<a target="_blank" href="http://www.edaa.com.br">Site Pessoal</a>
 								</li>
@@ -399,7 +420,6 @@
 			<i class="icon-arrow-up"></i>
 		</a>
 	</div>
-
 	<!-- jQuery -->
 	<script src="js/jquery.min.js"></script>
 	<!-- jQuery Easing -->
